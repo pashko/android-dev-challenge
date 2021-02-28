@@ -13,11 +13,34 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge.ui.theme
+package com.stepup.doggos.model
 
-import androidx.compose.ui.graphics.Color
+object Doggo {
 
-val purple200 = Color(0xFFBB86FC)
-val purple500 = Color(0xFF6200EE)
-val purple700 = Color(0xFF3700B3)
-val teal200 = Color(0xFF03DAC5)
+    inline class Id(val id: String)
+
+    data class Short(
+        val name: String,
+        val age: IntRange,
+        val imageUrl: Url
+    )
+
+    data class Details(
+        val sex: Sex,
+        val breed: Breed,
+        val likes: String?,
+        val typeOfHome: String?,
+        val aboutMe: String?,
+        val url: Url
+    )
+
+    inline class Breed(
+        val name: String
+    )
+
+    enum class Sex {
+        Male, Female
+    }
+}
+
+inline class Url(val url: String)

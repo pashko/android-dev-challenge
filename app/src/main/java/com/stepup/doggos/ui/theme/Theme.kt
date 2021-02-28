@@ -13,13 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge.ui.theme
+package com.stepup.doggos.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
+
 
 private val DarkColorPalette = darkColors(
     primary = purple200,
@@ -32,7 +34,7 @@ private val LightColorPalette = lightColors(
     primaryVariant = purple700,
     secondary = teal200
 
-        /* Other default colors to override
+    /* Other default colors to override
     background = Color.White,
     surface = Color.White,
     onPrimary = Color.White,
@@ -43,7 +45,7 @@ private val LightColorPalette = lightColors(
 )
 
 @Composable
-fun MyTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable() () -> Unit) {
+fun DoggosTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable() () -> Unit) {
     val colors = if (darkTheme) {
         DarkColorPalette
     } else {
@@ -52,8 +54,8 @@ fun MyTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable() (
 
     MaterialTheme(
         colors = colors,
-        typography = typography,
-        shapes = shapes,
+        typography = Typography,
+        shapes = Shapes,
         content = content
     )
 }

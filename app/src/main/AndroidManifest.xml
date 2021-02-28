@@ -13,14 +13,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.androiddevchallenge">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
+        android:name="com.stepup.doggos.DoggosApplication"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidDevChallenge">
         <activity
-            android:name="com.example.androiddevchallenge.MainActivity"
+            android:name="com.stepup.doggos.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.AndroidDevChallenge.NoActionBar">
             <intent-filter>
