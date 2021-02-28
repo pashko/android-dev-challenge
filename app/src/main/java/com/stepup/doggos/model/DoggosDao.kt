@@ -84,11 +84,11 @@ object Cooper {
         imageUrl = Url("https://www.dogstrust.org.uk/dogimages/1244901_cooper_20210225033152_cooper1_800.jpg")
     )
     val details = Doggo.Details(
-        breed = Doggo.Breed("Rottweiler"),
-        sex = Doggo.Sex.Female,
-        likes = "Doreen is a gorgeous 1 year old Rottweiler looking for a home to call her own. She's a great girl who loves to spend time with her human friends, she especially loves when they give her a tasty treat! Doreen loves to get out and about where she can have a good explore and sniff around.",
-        typeOfHome = "Doreen can meet other dogs, but she will react at smaller ones so it would suit her best to live in a quieter dog area with her own secure garden. Rottweiler experience would be preferable and owners will need to be comfortable with her strength. Doreen can be worried by heavy traffic and cyclists/joggers so will need to live away from busy roads or footpaths. She can live with children aged 14 years and over who are comfortable with larger dogs. She will need to be the only pet in the home.",
-        aboutMe = "Please note, Doreen's new home will need to be within half an hour from the centre. To apply for Doreen please click on the 'Come and meet me' button below. Applications will close on Friday 26th February at 12pm.",
+        breed = Doggo.Breed("American Bulldog"),
+        sex = Doggo.Sex.Male,
+        likes = "Cooper is a 4 year old American Bulldog cross. Due to current restrictions, I can't go to my forever home just yet, but you can contact the rehoming centre to register your interest. When restrictions ease, and if we're a suitable match, you will be able to discuss me in more detail with my carers at the centre. Cooper is a handsome big lad who adores attention from his family. He is happy to meet doggy friends out on his walks but would like to be the only dog in the home.",
+        typeOfHome = "Cooper is looking for owners who have experience with owning bigger breeds. Cooper is very strong on lead and will need owners who can physically handle his strength on lead. He would love his very own secure garden with direct access where he can run around and spend time with his family. He can live with children of 12 years and above.",
+        aboutMe = "Cooper is a sweet and affectionate boy. He is very active and loves playing fetch with his tennis ball. He will need owners happy to keep up training. Cooper loves to be cosied up next to you on the couch and enjoys a tasty treat!",
         url = Url("https://www.dogstrust.org.uk/rehoming/dogs/dog/1244901/cooper")
     )
 }
@@ -180,8 +180,8 @@ object Hulk {
         imageUrl = Url("https://www.dogstrust.org.uk/dogimages/1244017_hulk_20210224044338_hulk-in-foster-(5)_800.jpg")
     )
     val details = Doggo.Details(
-        breed = Doggo.Breed("Pug"),
-        sex = Doggo.Sex.Female,
+        breed = Doggo.Breed("A Crossbreed"),
+        sex = Doggo.Sex.Male,
         likes = "I am currently looking for my new family. To apply to rehome me please click on the 'Come and Meet Me' button below. Applications will close on Friday 26th February at 4pm. Please be aware that applications may close early if we receive a high level of applications. Due to the current lockdown restrictions, we can only accept applications within an hour and a half hour drive of the centre.",
         typeOfHome = "Hulk is a 19 week old Huntaway Crossbreed. He will grow up to be a large dog so we are looking for an experienced home who can continue with his training. Hulk came into Dogs Trust with a leg injury and unfortunately had to have his leg removed, however he has been recovering well in a foster home and is adjusting to life with three legs.",
         aboutMe = "Hulk is a typical puppy and does not realize his own size and will try and fit on your lap for cuddles when ever possible. Any children in the home will need to be 11 years and over. Hulk loves having another dog as company and gains confidence from them, so must live with a calm, confident dog already in the home who will act as a good role model. We are unsure if he can live with cats. Hulk will need continued training with lead walking, building his confidence and toilet training. Hulk will bring lots of fun and energy to his new family.",
